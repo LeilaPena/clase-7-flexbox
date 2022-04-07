@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    }
+    
+    header{
+        padding: 45px; 
+        background-color: lightskyblue;
+    }
+    aside{
+        padding:180px 100px;
+        background-color: lightcyan;
+    }
+    section{
+        padding: 180px 500px; 
+        background-color: lightpink;
+    }
+    footer{
+        padding: 45px;
+        background-color: lightgoldenrodyellow;
+    }
+    div{
+        display: flex;
+    }

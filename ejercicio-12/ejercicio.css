@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+body{
+    background-color: #f7f8fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7C7C90;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor{
+    box-sizing: border-box;
+    background-color: white;
+    width: 90%;
+    height: 70%;
+    border-top: #394151 solid 5px;
+    border-radius: 5px;
+    box-shadow: 0 8px 20px 0 rgba(60, 60, 61, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4%;
+}
+.columna-arriba{
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+}
+.izquierda{
+    display: flex;
+    font-size: 13px;
+    width: 15%;
+}
+.izquierda i{
+    font-size: 26px;
+    margin-right: 2%;
+}
+.izquierda , .nombre{
+    font-weight: bold;
+    color: #394151;
+}
+.derecha{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 85%;
+}
+.caja{
+    margin: 0 5% 0 10%;
+    height: 100%;
+    width: 15%;
+}
+.nombre{
+    font-size: 15px;
+    margin-bottom: 20%;
+}
+.lista p{    
+    font-size: 13px;
+    margin-bottom: 10%;
+}
+.columna-abajo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.flex-star{
+    width: 20%;
+}
+.center{
+    width: 50%;
+}
+.center , .flex-end{
+    display: flex;
+}
+.center div{    
+    margin-left: 10%;
+}
+.flex-end div{
+    padding: 0 10%;
+}
+.flex-end{
+    width: 20%;
+}

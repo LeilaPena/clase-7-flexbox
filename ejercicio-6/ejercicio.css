@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #161e2e;
+}
+header{
+    height: 10%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+h1{
+    font-size: 42px;
+}
+header p{
+    font-size: 13px;
+    color: #707a8d;
+    margin-top: 4%;
+}
+.caja-grande{
+    display: flex;
+    justify-content: center;
+}
+i{
+    background-color: #6875f5;
+    color: white;
+    padding: 2.5%;
+    font-size: 23px;
+    border-radius: 5px;
+}
+.caja p{
+    font-size:13px ;
+    color: #707a8d;
+}
+.caja{
+    margin: 1% 1%;    
+    width: 34%;
+}
+.cajas{
+    width: 100%;
+}
+h2{
+    margin: 4% 0;
+    font-size: 20px;
+}

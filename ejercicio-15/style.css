@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #414264;
+}
+.contenedor{
+    background-color: white;
+    padding: 2% 5%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%;
+    height: 65%;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0 rgba(94, 75, 146, 0.2);
+}
+p{
+    font-size: 14px;
+}
+.titulo{
+    font-size: 13px;
+    margin: 5% 0;
+}
+.estrellas-contenedor{
+    display: flex;
+    background-color: #f5f8ff;
+    padding: 5%;
+    border-radius: 15px;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2% 0;
+}
+.fa-star{
+    color: #ffcc48;
+    font-size: 20px;
+}
+.barras{
+    margin: 8% 0 0 0;
+    width: 100%;
+    height: 50%;
+}
+.contenedor-barra{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5% 0;
+    height: 8%;
+    align-items: center;
+}
+.barra{
+    background-color: #f5f8ff;
+    width: 75%;
+    border-radius: 10px;
+    height: 100%;
+    margin: 0 1%;
+}
+.nombre{
+    color: #3c5eb4;
+}
+.adentro{
+    background-color: #ffcc48;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 0px #ddc484;
+}
+.barra-cinco{
+    width: 84%;
+}
+.barra-cuatro{
+    width: 9%;
+}
+.barra-tres{
+    width: 4%;
+}
+.barra-dos{
+    width: 2%;
+}
+.barra-uno{
+    width: 1%;
+}
+a{
+    text-decoration: none;
+    color: #3c5eb4;
+    font-size: 15px;
+}

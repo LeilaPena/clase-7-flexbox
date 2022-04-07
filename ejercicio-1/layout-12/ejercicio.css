@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+header{
+    padding: 45px; 
+    background-color: lightskyblue;
+}
+aside{
+    padding:160px 50px;
+    background-color: lightcyan;
+}
+section{
+    padding: 160px 500px; 
+    background-color: lightpink;
+}
+footer{
+    padding: 45px;
+    background-color: lightgoldenrodyellow;
+}
+.contenedor {
+    display: flex;
+}
+nav{
+    background-color: rgb(212, 196, 233);
+    padding: 20px;
+}

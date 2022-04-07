@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8ecf3;
+    color: #898c96;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 14px;
+}
+.cartel-arriba{
+    background-color: #0c1226;
+    padding: 1% 2%;
+    border-radius: 25px;
+    color: #d9dde6;
+    margin: 2% 0;
+    box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.4);
+}
+.titulo{
+    color: #0c1226;
+    font-size: 11px;
+    margin: 1% 0;
+}
+.tarjeta-contenedor{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 35%;
+    margin: 2% 0;
+}
+.tarjeta{
+    margin: 1%;   
+    text-align: center; 
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 8px;
+    background-color:white;
+    border: solid white;
+    border-width:  8px 8px 0 8px;
+}
+.tarjeta-f9aca7{
+    margin-top: 0%;
+    box-shadow: 0 10px 20px 0 rgba(68, 61, 95, 0.4);
+}
+.color{
+    height: 83%;
+    margin-top: 0;
+    border-radius: 6px;
+}
+.eeedf0{
+    background-color: #eeedf0;
+}
+.a1b5c1{
+    background-color: #a1b5c1;
+}
+.f9aca7{
+    background-color: #f9aca7;
+}
+.c68747d{
+    background-color: #68747d;
+}
+.cf365f{
+    background-color: #cf365f;
+}
+.numero{
+    height: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numero p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.numero-f9aca7{
+    color: #0c1226;
+}
+.generar{
+    background-color: #7e6cca;
+    color: white;
+    margin: 2% 0 1% 0;
+    padding: 1.2% 6%;
+    border-radius: 5px;
+    box-shadow:  0 3px 10px 0 rgba(68, 61, 95, 0.5);
+}
+.barra-espaciadora{
+    color: #0c1226;
+}
+.cartel-abajo{
+    background-color: white;
+    margin: 3% 0 1% 0;
+    padding: 1% 2%;
+    border-radius: 25px;
+}

@@ -1,0 +1,16 @@
+body{
+text-align: center;
+}
+
+header{
+    padding: 45px; 
+    background-color: lightskyblue;
+}
+section{
+    padding: 200px; 
+    background-color: lightpink;
+}
+footer{
+    padding: 45px;
+    background-color: lightgoldenrodyellow;
+}

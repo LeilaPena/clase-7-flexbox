@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-color: #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.dado{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: white;
+    width: 75px;
+    height: 75px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0 10px 0 10px;
+}
+
+.punto{
+    background-color: black;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+}
+.dado-uno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abajo-derecha{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.arriba-izquierda{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.arriba-derecha{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.centro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abajo-izquierda{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.arriba{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.abajo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.arriba{
+    display: flex;
+    margin-bottom: 55px;
+}
+.elemento{
+    border: 1px black solid;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 3px;
+}
+.simbolo{
+    font-size: 20px;
+}
+.nombre{
+    font-size: 9px;
+}
+.columna-2{
+    margin-top: 57px;
+}
+.columna-3, .columna-4, .columna-5, .columna-6, .columna-7, .columna-8, .columna-9, .columna-10, .columna-11, .columna-12{
+    margin-top: 171px;
+}
+.columna-13, .columna-14, .columna-15, .columna-16, .columna-17{
+    margin-top: 57px;
+}
+.no-metales{
+    background-color: #ac92ff;
+}
+.alcalinos{
+    background-color: #ffc692;
+}
+.alcalinoterreos{
+    background-color: #ffe092;
+}
+.otros-metales{
+    background-color: #ecff92;
+}
+.metaloides{
+    background-color: #93ffa0;
+}
+.halogenos{
+    background-color: #f992ff;
+}
+.gases-nobles{
+    background-color: #92e0ff;
+}
+.fila-1, .fila-2{
+    display: flex;
+}
+.fila-1{
+    background-color: #d3ff92;
+}
+.fila-2{
+    background-color: #b9ff92;
+}

@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body , html{
+    height: 100%;
+}
+body{
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    height: 130%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+header p{
+    margin-top: 1%;
+}
+.cajas{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1% 0% 0 0;
+}
+.caja{
+    background-color: #434343;
+    height: 80%;
+    margin: 0 1.5%;
+    width: 24.5%;
+    border: solid 1px gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.caja:hover{
+border: 0.0625rem solid white;
+  background: rgba(255, 255, 255, 0.18);
+}
+.titulo{
+    margin: 10% 0 15%;
+}
+h3{
+    font-size: 28px;
+    font-weight: lighter;
+}
+.precio{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+span{
+    font-size: 25px;
+    margin-top: 1%;
+}
+.lista{
+    display: flex;
+    text-align: left;
+    font-size: 20px;
+    margin: 15% 7% 35% 7%;
+}
+.lista-dos{
+    margin-bottom: 19%;
+}
+.lista-tres{
+    margin-bottom: 11%;
+}
+li, li:before{
+    content: "\2713";
+    margin-right: 5%;
+    list-style: none;
+    width: 120%;
+}
+button{
+    width: 90%;
+    padding: 5% 0;
+    border-radius: 5px;
+    color: #2175a6;
+    font-weight: bold;
+    background-color: #c7c7c7;
+    border: none;
+}
